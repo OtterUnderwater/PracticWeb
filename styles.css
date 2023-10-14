@@ -1,0 +1,47 @@
+
+.main-title{
+    color:white;
+    text-align: center;
+    font-family: Arial;
+    font-size: xx-large;
+    margin: 20px;
+}
+.main-background {
+    background-image: url("./images/black-background.jpg");
+    background-size: 100% 100%;
+    background-repeat: repeat; /* повтор картинки*/
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 100%;
+}
+.item {
+    border-bottom: 2px solid orange;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    flex: 1 1 20%;
+    background-color: rgba(000000, 000000, 000000, .7);
+}
+.item-main {
+    align-items: center;
+    display: flex; /* в строчку фото и текст*/
+}
+.item-img {
+    width: 40px;
+    height: 40px;
+}
+.item-title {
+    color:white;
+    margin: 0px 0px 0px 20px;
+}
+.discription {
+    margin: 20px 0px 0px 0px;
+    color:white;
+}
+.descriptio-text {
+    color:white;
+}
