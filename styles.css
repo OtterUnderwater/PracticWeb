@@ -1,17 +1,10 @@
 
 .main-title{
-    color:white;
-    text-align: center;
-    font-family: Arial;
+    color:rgb(0, 0, 0);
     font-size: xx-large;
     margin: 20px;
 }
-.main-background {
-    background-image: url("./images/black-background.jpg");
-    background-size: 100% 100%;
-    background-repeat: repeat; /* повтор картинки*/
-}
-.list {
+.header {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 50px;
@@ -19,29 +12,28 @@
     margin: 10px;
     flex: 1 1 100%;
 }
-.item {
-    border-bottom: 2px solid orange;
-    border-radius: 10px 10px 0px 0px;
-    padding: 20px;
-    flex: 1 1 20%;
-    background-color: rgba(000000, 000000, 000000, .7);
+.cap:hover 
+{
+    color: rgb(41, 199, 151);
 }
-.item-main {
-    align-items: center;
-    display: flex; /* в строчку фото и текст*/
-}
-.item-img {
-    width: 40px;
-    height: 40px;
+.point::before {
+    content: '•';
+    margin: 0px 10px 0px 0px;
+    color: rgb(41, 199, 151);
 }
 .item-title {
-    color:white;
-    margin: 0px 0px 0px 20px;
+    color:rgb(0, 0, 0);
+    margin: 20px 0px 0px 20px;
+    font-size: large;
 }
-.discription {
-    margin: 20px 0px 0px 0px;
-    color:white;
+.button {
+    background-color: rgb(41, 199, 151);
+    padding: 10px 40px 10px 40px;
+    margin: 20px 10px 20px 10px;
 }
-.descriptio-text {
-    color:white;
+.block:hover {
+    background-color:rgb(166, 76, 251);
+}
+.block:hover > .point {
+    color:rgb(166, 76, 251);
 }
